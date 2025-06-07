@@ -46,7 +46,7 @@ import java.util.Arrays;
  * CharSequence subsequence = text.subSequence(m.start(), m.end());
  * "+1 425 882-8080".contentEquals(subsequence);
  *
- * // number() returns the the same result as PhoneNumberUtil.{@link PhoneNumberUtil#parse parse()}
+ * // number() returns the same result as PhoneNumberUtil.{@link PhoneNumberUtil#parse parse()}
  * // invoked on rawString().
  * util.parse(m.rawString(), country).equals(m.number());
  * </pre>
