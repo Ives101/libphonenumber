@@ -41,7 +41,7 @@
 // string subsequence = text.substr(match.start(), match.end());
 // "+1 425 882-8080" == subsequence;
 //
-// // number() returns the the same result as PhoneNumberUtil::Parse()
+// // number() returns the same result as PhoneNumberUtil::Parse()
 // // invoked on raw_string().
 // const PhoneNumberUtil& util = *PhoneNumberUtil::GetInstance();
 // util.Parse(match.raw_string(), country).Equals(match.number());

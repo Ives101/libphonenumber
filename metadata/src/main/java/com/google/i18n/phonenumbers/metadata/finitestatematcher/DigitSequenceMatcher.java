@@ -45,7 +45,7 @@ public abstract class DigitSequenceMatcher {
     TOO_SHORT,
     /**
      * The match operation failed due to the existence of additional input after matching had
-     * completed (ie, the the input would have matched if it were shorter).
+     * completed (ie, the input would have matched if it were shorter).
      */
     TOO_LONG;
   }

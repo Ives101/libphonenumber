@@ -213,7 +213,7 @@ final class FlyweightMapStorage extends PhonePrefixMapStorageStrategy {
    * @param objectOutput  the object output stream to which the value is written
    * @param wordSize  the number of bytes used to store the value
    * @param inputBuffer  the byte buffer from which the value is read
-   * @param index  the index of the value in the the byte buffer
+   * @param index  the index of the value in the byte buffer
    * @throws IOException if an error occurred writing to the provided object output stream
    */
   private static void writeExternalWord(ObjectOutput objectOutput, int wordSize,
